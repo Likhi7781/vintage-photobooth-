@@ -175,13 +175,6 @@ canvas {
 video {
     transform: scaleX(-1);
 }
-/* Progress indicator */
-#progress-text {
-    font-size: 14px;
-    color: #8ebcfd;
-    margin-bottom: 10px;
-}
-
 /* Mirror ONLY preview */
 video {
     transform: scaleX(-1);
