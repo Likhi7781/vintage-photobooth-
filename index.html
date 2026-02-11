@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vintage Photo Booth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="flash"></div>
+
+    <div class="booth-container">
+
+        <h1>
+            <span class="vintage">Vintage</span> Photo<br>Booth
+        </h1>
+
+        <p>Smile, click & keep the memory!</p>
+
+        <div class="polaroid">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <!-- ✅ PROGRESS INDICATOR -->
+        <p id="progress-text">📸 0 / 4 photos taken</p>
+
+        <button id="capture-btn">Capture</button>
+
+        <p id="status-text">Photo captured!</p>
+
+        <div class="actions">
+            <button id="retake-btn" class="secondary-btn">Retake</button>
+            <a id="download-btn" class="secondary-btn" download="photobooth.png">
+                Download
+            </a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
